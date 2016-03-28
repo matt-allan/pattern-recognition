@@ -1,0 +1,22 @@
+{
+    "name": "yuloh/pattern-recognition",
+    "description": "A pattern matching library for arrays",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Matt Allan",
+            "email": "matthew.james.allan@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^5.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "Yuloh\\PatternRecognition\\": "src/"
+        }
+    }
+}
